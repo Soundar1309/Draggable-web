@@ -1,0 +1,30 @@
+body{
+    background-color: darksalmon
+}
+
+.empty{
+    display: inline-block;
+    background-color: blanchedalmond;  
+    height: 160px;
+    width: 160px;
+    border: 2px solid rgb(51, 51, 51);
+}
+
+.fill{
+    background-image:url("https://picsum.photos/150");
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.hold {
+    border: 2px solid white;
+}
+
+.hovered {
+    background: #f4f4f4;
+    border-style: dashed;
+}
